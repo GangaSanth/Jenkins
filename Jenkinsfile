@@ -4,7 +4,7 @@ pipeline {
     environment {
         CODE_DIRECTORY = "/path/to/code"
         TEST_ENV = "testing"
-        PROD_ENV = "yourname_production"
+        PROD_ENV = "yourname_production" 
         NOTIFICATION_EMAIL = "gangasnair222@gmail.com"
     }
 
@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo "Fetching the source code from: $CODE_DIRECTORY" 
                 echo "Compiling the code and generating artifacts"
-                // Add actual build steps here
+                // Add actual build steps here 
             }
         } 
         stage('Unit and Integration Tests') {
