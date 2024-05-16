@@ -5,7 +5,7 @@ pipeline {
         CODE_DIRECTORY = "/path/to/code"
         TEST_ENV = "testing"
         PROD_ENV = "yourname_production"
-        NOTIFICATION_EMAIL = "gangavarickayil@gmail.com"
+        NOTIFICATION_EMAIL = "gangasnair222@gmail.com"
     }
 
     stages {
@@ -94,7 +94,7 @@ pipeline {
                     <p>Console Output: <a href="${env.BUILD_URL}console">${env.BUILD_URL}console</a></p>
                     </body>
                     </html>''',
-                to: 'gangavarickayil@gmail.com',
+                to: 'gangasnair222@gmail.com',
                 from: 'jenkins@example.com',
                 replyTo: 'jenkins@example.com',
                 mimeType: 'text/html'
