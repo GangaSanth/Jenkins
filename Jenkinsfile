@@ -9,7 +9,7 @@ pipeline {
     }
 
     stages {
-        stage('Build') {
+        stage('Build') { 
             steps {
                 echo "Fetching the source code from: $CODE_DIRECTORY" 
                 echo "Compiling the code and generating artifacts"
