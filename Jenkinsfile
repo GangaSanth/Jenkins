@@ -6,7 +6,7 @@ pipeline {
         TEST_ENV = "testing"
         PROD_ENV = "yourname_production" 
         NOTIFICATION_EMAIL = "gangasnair222@gmail.com" 
-    } 
+    }  
 
     stages {
         stage('Build') {  
